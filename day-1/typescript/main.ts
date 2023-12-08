@@ -5,7 +5,6 @@ import { ensureDigitNumber } from "./WordNumberUtils";
 const filePath = process.argv[2];
 
 let calibrationNumberSum = 0;
-let lineCount = 0;
 
 try {
   const readLine = createInterface({

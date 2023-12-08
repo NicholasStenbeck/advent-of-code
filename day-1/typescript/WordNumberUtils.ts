@@ -1,5 +1,4 @@
 export const ensureDigitNumber = (numberString: string): string => {
-  const castNumber = Number(numberString);
   if (!isNaN(Number(numberString))) {
     return numberString;
   }
